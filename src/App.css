@@ -1,0 +1,53 @@
+.square {
+  font-size: 24px; /* Ubah ukuran font untuk memperbesar isi kotak */
+  width: 100px; /* Atur lebar kotak */
+  height: 100px; /* Atur tinggi kotak */
+  /* Anda juga bisa menambahkan properti CSS lainnya untuk menyesuaikan gaya kotak */
+}
+body{
+  background-color: blueviolet;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
